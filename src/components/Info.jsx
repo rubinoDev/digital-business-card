@@ -1,7 +1,10 @@
+import linkedinLogo from '/assets/linkedin.svg'
+import lauraProfile from "/assets/LauraSmith.png"
+
 export function Info(){
   return(
     <>
-      <img className="info__img" src="../assets/LauraSmith.png" alt="Laura Smith"/>
+      <img className="info__img" src={lauraProfile} alt="Laura Smith"/>
       <h2 className="info__h2">Laura Smith</h2>
       <p className="info__p">Frontend Developer</p>
       <a className="info__website-link" href="#">laurasmith.website</a>
@@ -17,7 +20,7 @@ export function Info(){
 
         <a className="info__linkedin-link" href="#">
           <div className="info__linkedin-container">
-            <img src="../assets/linkedin.svg"/>
+            <img src={linkedinLogo}/>
            LinkedIn
           </div>
         </a>

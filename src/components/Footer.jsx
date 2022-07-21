@@ -1,22 +1,27 @@
+import twitterLogo from '/assets/Twitter.svg'
+import facebookLogo from '/assets/Facebook.svg'
+import instagramLogo from "/assets/Instagram.svg"
+import gitHubLogo from "/assets/GitHub.svg"
+
 export function Footer(){
   return(
     <div className="footer__container">
       <a href="#">
-        <img src="../assets/Twitter.svg"/>
+        <img src={twitterLogo}/>
       </a>
 
       <a href="#">
-        <img src="../assets/Facebook.svg"/>
-
-      </a>
-
-      <a href="#">
-       <img src="../assets/Instagram.svg"/>
+        <img src={facebookLogo}/>
 
       </a>
 
       <a href="#">
-        <img src="../assets/GitHub.svg"/>
+       <img src={instagramLogo}/>
+
+      </a>
+
+      <a href="#">
+        <img src={gitHubLogo}/>
 
       </a>
     </div>
