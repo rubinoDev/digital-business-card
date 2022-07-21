@@ -1,5 +1,6 @@
 import linkedinLogo from '/assets/linkedin.svg'
 import lauraProfile from "/assets/LauraSmith.png"
+import mailLogo from "/assets/Mail.svg"
 
 export function Info(){
   return(
@@ -13,7 +14,7 @@ export function Info(){
 
         <a className="info__email-link" href="#">
          <div className="info__email-container">
-            <img src="../assets/Mail.svg"/>
+            <img src={mailLogo}/>
             Email
           </div>
         </a>  
