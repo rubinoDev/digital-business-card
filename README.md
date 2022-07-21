@@ -22,3 +22,4 @@ A digital business card developed in order to train my React JS componentization
 <code><img height="20" src="https://user-images.githubusercontent.com/105171818/172874428-4256946b-2e5f-439f-9ff0-704460c764a7.png" title="VS Code"></code>
 <code><img height="20" src="https://user-images.githubusercontent.com/105171818/180291690-d46c9bd7-5fdb-443f-85f7-95280fa8be50.svg" title="VS Code"></code>
 
+## Deploy : https://digital-business-card-kappa.vercel.app/
