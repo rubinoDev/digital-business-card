@@ -1,0 +1,175 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin:0;
+  padding:0;
+
+  background-color: #23252C;
+
+  font-family: 'Inter', sans-serif;
+
+  -webkit-font-smoothing: antialiased;
+
+}
+
+h1,h2,h3,h4,p{
+  margin:0;
+}
+
+html{
+  font-size:62.5%;
+}
+
+.App{
+  margin: 4.4rem auto;
+  width:31.7rem;
+
+  background-color:hsla(231, 12%, 12%, 1);
+
+  border-radius:1rem;
+}
+
+/* ======= INFO ======= */
+
+header{
+  text-align:center;
+
+}
+
+.info__h2{
+  font-weight:700;
+  font-size:2.5rem;
+  line-height:3rem;
+
+  color:white;
+
+  padding-top:2.8rem;
+  padding-bottom:.5rem;
+}
+
+.info__p{
+  font-weight:400;
+  font-size:1.28rem;
+  line-height:1.5rem;
+
+  color:hsla(25, 79%, 78%, 1);
+
+  padding-bottom:1.1rem;
+
+}
+
+.info__website-link{
+  color:white;
+  text-decoration:none;
+  padding-bottom:2rem;
+
+  display:block;
+}
+
+.info__buttons-container{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+
+  gap:1.7rem;
+}
+
+.info__email-container{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:.8rem;
+
+  background-color:white;
+
+  width:11.5rem;
+  height:3.4rem;
+
+  border-radius:0.5rem;
+
+
+}
+
+.info__linkedin-container{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:.8rem;
+
+  background-color:hsla(212, 72%, 60%, 1);
+
+  width:11.5rem;
+  height:3.4rem;
+
+  border-radius:0.5rem;
+
+}
+
+.info__email-link{
+  color:hsla(217, 19%, 27%, 1);
+  text-decoration:none;
+  font-weight:500;
+  font-size:1.4rem;
+  line-height:1.6rem;
+
+  cursor:pointer;
+}
+
+.info__linkedin-link{
+  color:white;
+  text-decoration:none;
+  font-weight:500;
+  font-size:1.4rem;
+  line-height:1.6rem;
+
+  cursor:pointer;
+}
+
+
+/* ====== MAIN ======= */
+
+main{
+  padding-inline:3.3rem;
+  padding-block:4.3rem;
+  color:hsla(0, 0%, 96%, 1);
+}
+
+.main__title{
+  font-weight:700;
+  font-size:1.6rem;
+  line-height:2.4rem;
+
+  color:#F5F5F5;
+}
+
+.main__paragraph{
+  font-weight:400;
+  font-size:1rem;
+  line-height:1.5rem;
+
+  color:#DCDCDC;
+
+}
+
+#main__paragraph{
+text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+padding-bottom:1rem;
+
+}
+
+/* ====== FOOTER ======= */
+
+footer{
+  background: #161619;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.footer__container{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:2.4rem;
+  padding-block:1.7rem;
+}
